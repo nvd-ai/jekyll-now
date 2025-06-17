@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Health Supplements
 
 # Short bio or description (displayed in the header)
 description: Web Developer from Somewhere
@@ -72,6 +72,10 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
