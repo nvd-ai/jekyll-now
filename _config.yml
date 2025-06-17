@@ -58,6 +58,11 @@ permalink: /:title/
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
@@ -71,10 +76,6 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
-
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-remote-theme
   
 # Use the following plug-ins
 gems:
