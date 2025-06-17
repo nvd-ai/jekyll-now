@@ -81,6 +81,17 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "docs"
+        
 # Exclude these files from your production _site
 exclude:
   - Gemfile
